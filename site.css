@@ -1,0 +1,31 @@
+body {
+    background: #ffe3e8;
+    padding: 50px;
+    }
+
+h1, 
+h2,
+h3 {
+    color: #ce2c6d;
+    font-family:'Times New Roman';
+    }
+
+h1 {
+    background-color: rgb(255, 210, 255);
+    padding: 30px
+    }
+
+h2, 
+h3 {margin-left: 5px;  
+    }
+
+p {margin-left: 10px;
+    }
+
+A, li {color: rgb(164, 64, 164)}
+
+
+img {
+    width: 400px;
+    }
+

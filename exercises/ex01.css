@@ -1,0 +1,35 @@
+HTML {background-color: rgb(255, 213, 213)}
+
+A{color: rgb(152, 22, 144)}
+
+Ol{color: rgb(152, 22, 144)}
+
+H1 {
+background-color: rgb(255, 151, 174);
+color: rgb(254, 227, 255);
+font-weight: bold;
+} 
+
+h2 {
+background-color: rgb(255, 151, 174); 
+color: rgb(254, 227, 255);
+font-weight: normal;
+}
+
+p{
+    background-color: rgb(255, 227, 236);
+    color:  rgb(255, 56, 136);
+    padding: 10px; 
+    margin: 50px; 
+    font-size: 15px;
+}
+
+
+IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#choso {width: 70%; }
