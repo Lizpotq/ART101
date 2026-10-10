@@ -1,6 +1,8 @@
 HTML {background-color: rgb(255, 213, 213)}
 
 A{color: rgb(152, 22, 144)}
+A:hover {color: pink; background: purple}
+
 
 Ol{color: rgb(152, 22, 144)}
 
@@ -33,3 +35,9 @@ IMG {
 }
 
 #choso {width: 70%; }
+
+.highlight_01 {background-color:rgb(255, 145, 235);}
+.highlight_02 {background-color: rgb(255, 183, 204)}
+.highlight_01 strong {background-color:rgb(140, 20, 132)}
+
+#main {background-color: rgb(252, 213, 255); padding: 50px; margin: 100px}
