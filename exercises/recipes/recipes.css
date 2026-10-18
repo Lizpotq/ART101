@@ -1,0 +1,63 @@
+HTML {
+    background-color: rgb(255, 213, 213)
+
+}
+
+A{color: rgb(152, 22, 144)}
+A:hover {color: pink; background: purple}
+
+
+Ol{color: rgb(152, 22, 144)}
+
+H1 {
+background-color: rgb(255, 151, 174);
+color: rgb(254, 227, 255);
+font-weight: bold;
+} 
+
+h2 {
+background-color: rgb(255, 151, 174); 
+color: rgb(254, 227, 255);
+font-weight: normal;
+}
+
+p{
+    background-color: rgb(255, 227, 236);
+    color:  rgb(255, 56, 136);
+    padding: 10px; 
+    margin: 50px; 
+    font-size: 15px;
+}
+
+
+IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#choso {width: 70%; }
+
+.highlight_01 {background-color:rgb(255, 145, 235);}
+.highlight_02 {background-color: rgb(255, 183, 204)}
+.highlight_01 strong {background-color:rgb(140, 20, 132)}
+
+#main {background-color: rgb(252, 213, 255); padding: 50px; margin: 100px}
+
+/* home page styles */
+
+#pan-home {position: relative; height: 100vh;background: url (images) repeat-x bottom;}
+
+#chicken {position: absolute; bottom: 10px; left:40%}
+#chicken2 {position: absolute; bottom: 50px; right:10vw}
+#chicken3 {position: absolute; bottom: 50px; left:100px}
+
+#homelink {position: absolut; top: 50px; right: 50px;}
+#homelink IMG {width: 40px;}
+
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
