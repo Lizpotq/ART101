@@ -1,0 +1,122 @@
+body {
+  background-image: url("Domain Infinity.jpg"); 
+  background-size: 100%; 
+}
+
+p {
+   color: #ffffff; 
+   background: #a1a1c9; 
+   border: 6px solid white; 
+   padding: 20px ;
+   margin: 0 0 0 0;
+}
+
+h2 {
+   color: rgb(32, 26, 83); 
+   background: #afafd6;  
+   border: 6px solid white; 
+   padding: 20px ;
+   margin: 0 0 0 0;
+}
+
+#gojo {width: 50% }
+
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+} 
+
+.top-section {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+    text-align: center;
+    flex: 2;
+    p {color: #ffffff ; }
+}
+
+
+#top{
+    background: rgb(32, 26, 83); 
+    border: 6px solid white; 
+    padding: 20px ;
+    flex: 1;
+    border-radius: 12px;
+    max-width: 700px ; 
+    margin: 0 0 10px 50px;
+    text-align: center; 
+}
+
+.main { 
+    display: flex;
+    gap: 200px;
+    align-items: flex-start;
+    margin: 25px 0 25px 0;
+    text-align: center;
+    flex: 2;
+}
+
+.main img {
+    width: 150px;
+    border-radius: 12px;
+ }
+
+ .main p {
+   font-size: 90%;
+   line-height: 1.5;
+   color: rgb(255, 255, 255);
+   background: rgb(32, 26, 83);
+   border-radius: 12px;
+ } 
+
+ #environment-output { 
+   max-width: 500px;
+   margin: 0 0 10px 140px;
+   padding: 30px;
+   background: rgb(32, 26, 83); 
+   border: 6px solid white; 
+   border-radius: 12px;
+   text-align: center; 
+   gap: 200px;
+ }
+
+ #title { 
+color: #040448;
+border-radius: 25px; 
+border: solid white ; 
+background: #afafd6; 
+font-family: 'Times New Roman', Times, serif;
+font-size: 12px;
+ }
+
+
+#elements { 
+color: #040448;
+border-radius: 25px; 
+border: solid white ; 
+background: #afafd6; 
+font-family: 'Times New Roman', Times, serif;
+font-size: 12px;
+ }
+ 
+#main-entity { 
+color: #040448;
+border-radius: 25px; 
+border: solid white ; 
+background: #afafd6; 
+font-family: 'Times New Roman', Times, serif;
+font-size: 12px;
+ }
+
+#hol-purp { 
+color: #040448;
+border-radius: 25px; 
+border: solid white ; 
+background: #afafd6; 
+font-family: 'Times New Roman', Times, serif;
+font-size: 12px;
+ }
+
+
