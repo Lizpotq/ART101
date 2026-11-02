@@ -1,6 +1,11 @@
 body {
-  background-image: url("Domain Infinity.jpg"); 
+  background-image: url("Domain Infinity.jpg") , url(getodeath.jpg) , url(getoandgojohappy.jpg); 
   background-size: 100%; 
+  margin: 0;
+  padding: 32px;
+  font-family: Arial, sans-serif;
+  color: #111169;
+  text-align: center;
 }
 
 p {
@@ -36,7 +41,6 @@ h2 {
     flex: 2;
     p {color: #ffffff ; }
 }
-
 
 #top{
     background: rgb(32, 26, 83); 
@@ -91,7 +95,6 @@ font-family: 'Times New Roman', Times, serif;
 font-size: 12px;
  }
 
-
 #elements { 
 color: #040448;
 border-radius: 25px; 
@@ -118,5 +121,75 @@ background: #afafd6;
 font-family: 'Times New Roman', Times, serif;
 font-size: 12px;
  }
+
+#turn-message {
+    font-size: 12px;
+    font-weight: bold;
+    background: #040448; 
+    border-radius: 25px; 
+  
+}
+
+#scene {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 32px auto;
+}
+
+.character {
+    width: 240px;
+}
+
+.character img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#chat {
+    max-width: 600px;
+    min-height: 100px;
+    margin: 24px auto;
+    padding: 16px;
+   
+    border-radius: 30px;
+    background-color: rgb(239, 252, 224);
+    text-align: left;
+    box-shadow: 8px 0px 0px 0px #afafd6, 0px 8px 0px 0px #afafd6, -8px 0px 0px 0px #040448, 0px 0px 0px 8px #faf8f8, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#chat p {
+    margin: 8px 0;
+    padding: 10px 14px;
+    border-radius: 12px;
+}
+
+#chat .message-A {
+    margin-right: 40px;
+    background-color: #eeeeee;
+}
+
+#chat .message-B {
+    margin-left: 40px;
+    background-color: #dceedd;
+}
+
+#answers {
+    display: none;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+#answers button {
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
 
 
